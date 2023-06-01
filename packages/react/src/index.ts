@@ -1,5 +1,4 @@
-import { generateCssVariables } from './utils/theme'
-generateCssVariables()
+import './__init__'
 
 export { default as Button } from './components/button'
 export type { ButtonProps } from './components/button'
